@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-  width: 58.5%;
+  max-width: 1440px;
   margin: -138px auto;
   display: flex;
   flex-wrap: wrap;
