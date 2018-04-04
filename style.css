@@ -9,12 +9,12 @@ body {
   color: #52545e;
   font-size: 25px;
   font-weight: 700;
-  width: 49%;
+  width: 882px;
   margin: 200px auto;
 }
 
 .container {
-  width: 58.5%;
+  width: 1115px;
   margin: -138px auto;
   display: flex;
   flex-wrap: wrap;
