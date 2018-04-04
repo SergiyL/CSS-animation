@@ -9,16 +9,37 @@ body {
   color: #52545e;
   font-size: 25px;
   font-weight: 700;
-  width: 882px;
+  width: 940px;
   margin: 200px auto;
 }
 
 .container {
-  width: 1115px;
+  width: 1132px;
   margin: -138px auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 1130px) {
+  .container {
+    width: 750px;
+  }
+  .title {
+    width: 579px;
+  }
+}
+
+@media screen and (max-width: 755px) {
+  .container {
+    width: 400px;
+  }
+  .title {
+    width: 200px
+  }
+  .textbox {
+    margin: 0 auto;
+  }
 }
 
 .textbox {
